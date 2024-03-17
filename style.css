@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0C3B2E !important;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .card-All{
+    display: flex !important;
+    margin-left: .5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+ .card-All i{
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+   
+  }
+
+  .explore{
+    margin-top: 2rem;
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+  }
+.explore .card{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 20% auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* button:hover {
+  background-color:#BB8A52;
+} */
+.navbar-brand span{
+  color: #0056b3;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+.tagLine h3{
+  color: #000;
+  font-family: "Great Vibes", cursive;
+  font-weight: 800;
+  font-style:italic;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.sugggg{
+  text-align: center;
+}
+.tagLine{
+  margin-bottom: 3rem;
+}
+
+.card-All i:hover{
+  color:#ffba00;
+  animation: fa-beat-fade 1s infinite;
+
+}
+.navvv{
+  height: 5rem;
+}
+.navbar-nav{
+  text-align: end;
+}
+.navvv button{
+  margin-left: 2px;
+}
+.navbar-brand{
+  font-size: 5rem;
+}
+.navvv span{
+  font-size: larger;
+  color: #BB8A52;
+}
+@keyframes fa-beat-fade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+.explore .card-body{
+  background-color: #6d9773;
+  font-family: "Noto Sans Khojki", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.carousel-inner{
+  font-family: "Diplomata", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.explore .card-body i{
+ color: #BB8A52;
+ font-size: 2rem;
+}
+.explore .card-body a  :hover{
+  color:#ffba00;
+  animation: fa-beat-fade 1s infinite;
+ font-size: 3rem;
+}
+
+.card-All .card{
+  background-color: #866038;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+footer{
+  background-color: #0C3B2E !important;
+  color: #ccc;
+  font-family: 'Arbutus Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+footer i{
+  color: wheat;
+  
+}

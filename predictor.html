@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mutual Funds Prediction</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #0C3B2E !important;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #866038;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Mutual Funds Prediction</h2>
+  <form id="predictionForm">
+    <label for="investment">Enter your investment amount:</label>
+    <input type="number" id="investment" name="investment" required style="background-color: transparent;border: 1px solid #ffba00;">
+    <button type="submit"style="background-color:#ffba00;border-radius: 2px;border: 1px solid #ffba00;color:white;padding:2px 2px;">Predict</button>
+  </form>
+  <div id="predictionResult"></div>
+</div>
+
+<script>
+  document.getElementById('predictionForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const investment = parseFloat(document.getElementById('investment').value);
+
+    // Your prediction algorithm here
+    const predictedAmount = investment * 1.1; // Just a simple prediction algorithm for demonstration
+
+    document.getElementById('predictionResult').innerHTML = `
+      <h3>Predicted Amount after One Year:</h3>
+      <p>${predictedAmount.toFixed(2)}</p>
+    `;
+  });
+</script>
+
+</body>
+</html>

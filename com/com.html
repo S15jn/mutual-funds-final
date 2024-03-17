@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mutual Fund Recommender</title>
+  <link rel="stylesheet" href="com.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mutual Fund Recommender</h1>
+    <label for="investmentAmount">Investment Amount ($):</label>
+    <input type="number" id="investmentAmount" min="1">
+    <label for="investmentDuration">Investment Duration (years):</label>
+    <input type="number" id="investmentDuration" min="1">
+    <button onclick="recommend()">Recommend</button>
+    <div id="recommendation"></div>
+  </div>
+
+  <script src="com.js"></script>
+</body>
+</html>

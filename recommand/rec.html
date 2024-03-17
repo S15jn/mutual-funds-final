@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutual Fund Recommendation System</title>
+    <link rel="stylesheet" href="rec.css">
+</head>
+<body>
+    <h1>Mutual Fund Recommender</h1>
+    <div id="inputForm">
+        <label for="financialGoals">Financial Goals:</label>
+        <input type="text" id="financialGoals" placeholder="e.g., Retirement, Education, Wealth Growth"><br><br>
+        
+        <label for="riskTolerance">Risk Tolerance:</label>
+        <select id="riskTolerance">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select><br><br>
+        
+        <button onclick="generateRecommendations()">Generate Recommendations</button>
+    </div>
+
+    <div id="recommendation" style="display: none;">
+        <p>Based on your financial goals and risk tolerance, we recommend the following mutual funds:</p>
+        <ul id="mutualFunds">
+            <!-- Mutual fund recommendations will be added here dynamically -->
+        </ul>
+    </div>
+    <script src="rec.js"></script>
+</body>
+</html>
